@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99EA90"
+    tools:context=".BMIActivity">
+
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="350dp"
+        android:layout_height="158dp"
+        android:background="@drawable/weight"
+        android:gravity="center"
+        android:hint="     \n\nEnter Weight (kg)"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="#95a39a"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="350dp"
+        android:layout_height="158dp"
+        android:background="@drawable/weight"
+        android:gravity="center"
+        android:hint="    \n\nEnter Height (cm)"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="#95a39a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextWeight"
+        app:layout_constraintEnd_toEndOf="@+id/editTextWeight"
+        app:layout_constraintStart_toStartOf="@+id/editTextWeight"
+        app:layout_constraintTop_toTopOf="@+id/editTextWeight"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextHeight"
+        app:layout_constraintEnd_toEndOf="@+id/editTextHeight"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/editTextHeight"
+        app:layout_constraintTop_toTopOf="@+id/editTextHeight"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="319dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#344941"
+        android:text="Calculate BMI"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="315dp"
+        android:layout_height="114dp"
+        android:background="#344941"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="315dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#1A3519"
+        android:text="Check Calorie Stats!!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult"
+        app:layout_constraintVertical_bias="0.391" />
+</androidx.constraintlayout.widget.ConstraintLayout>

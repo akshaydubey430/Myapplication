@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456206328210",
+    "project_id": "log-in-3d0f2",
+    "storage_bucket": "log-in-3d0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456206328210:android:4fdad780a0a0e3ed71214b",
+        "android_client_info": {
+          "package_name": "com.example.healthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC85yIjnJb1UpU13IvbSSfJ4ffbasbgyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456206328210:android:cf7958cb7970e84e71214b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC85yIjnJb1UpU13IvbSSfJ4ffbasbgyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
